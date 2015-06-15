@@ -14,7 +14,7 @@
  * limitations under the License.
  ******************************************************************************/
 
-package de.tomgrill.gdxtestsubproject;
+package de.tomgrill.gdxtesting;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -14,22 +14,17 @@
  * limitations under the License.
  ******************************************************************************/
 
-package de.tomgrill.gdxtestsubproject.examples;
+package de.tomgrill.gdxtesting.examples;
 
-import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
-import org.junit.runner.RunWith;
 
-import com.badlogic.gdx.Gdx;
-
-import de.tomgrill.gdxtestsubproject.GdxTestRunner;
-
-@RunWith(GdxTestRunner.class)
-public class AssetExistsExampleTest {
+public class UnitTestExample {
 
 	@Test
-	public void badlogicLogoFileExists() {
-		assertTrue(Gdx.files.internal("../android/assets/badlogic.jpg").exists());
+	public void oneEqualsOne() {
+		assertEquals(1, 1);
 	}
+
 }
