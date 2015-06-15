@@ -69,7 +69,7 @@ desktop/
 gradle/
 html/
 ios/
-build.gradle
+/build.gradle
 gradle.properties
 gradlew*
 settings.gradle
