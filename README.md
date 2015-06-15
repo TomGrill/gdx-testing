@@ -67,7 +67,7 @@ project(":tests") {
 ./gradlew tests:test
 ```
 
-Note: gradle caches passed tests. So if you rename/move/delete badlogic.jpg and run the tests again it will pass. Run from time to time (especially when working with tests against filesystem or anything else that has changed but did not affect the tests):
+Note: gradle caches passed tests. So if you rename/move/delete badlogic.jpg and run the tests again it will pass. Run from time to time (especially when working with tests against filesystem or anything else that has changed but did not affect the compiled tests):
 ```php
 ./gradlew clean tests:test
 ```
