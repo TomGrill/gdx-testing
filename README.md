@@ -1,6 +1,6 @@
 # gdx-testing
 
-This is a skeleton for libGDX projects that need testing with JUnit and Mockito.
+This is a skeleton for libGDX projects which require testing with JUnit and Mockito.
 
 ## Installation
 
