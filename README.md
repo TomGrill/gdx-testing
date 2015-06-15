@@ -4,15 +4,19 @@ This is a skeleton for libGDX projects that need testing with JUnit and Mockito.
 
 ## Installation
 
+Asuming that you already did setup a libGDX project:
+
 1. Copy the **tests** folder of this project into your libGDX root directory.
 
 2. Edit the **settings.gradle** file and add the **'tests'** subproject to the includes like this:
 
-```include 'desktop', 'android', 'ios', 'html', 'core', 'tests'```
+```php
+include 'desktop', 'android', 'ios', 'html', 'core', 'tests'
+```
 
 3. Edit **build.gradle** file, and add these lines:
 
-```
+```php
 project(":tests") {
     apply plugin: "java"
 
@@ -56,7 +60,14 @@ project(":tests") {
 ```
 
 ## Run the tests
-```./gradlew clean tests:test```
+```php
+./gradlew tests:test
+```
+
+Note: gradle caches passed tests. So if you rename/move/delete badlogic.jpg and run the tests again it will pass. Run from time to time (especially when working with tests against filesystem or anything else that has changed but did not affect the tests):
+```php
+./gradlew clean tests:test
+```
 
 Happy testing!
 
