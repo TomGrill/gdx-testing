@@ -6,15 +6,15 @@ This is a skeleton for libGDX projects that need testing with JUnit and Mockito.
 
 Asuming that you already did setup a libGDX project:
 
-1. Copy the **tests** folder of this project into your libGDX root directory.
+* Copy the **tests** folder of this project into your libGDX root directory.
 
-2. Edit the **settings.gradle** file and add the **'tests'** subproject to the includes like this:
+* Edit the **settings.gradle** file and add the **'tests'** subproject to the includes like this:
 
 ```php
 include 'desktop', 'android', 'ios', 'html', 'core', 'tests'
 ```
 
-3. Edit **build.gradle** file, and add these lines:
+* Edit **build.gradle** file, and add these lines:
 
 ```php
 project(":tests") {
@@ -58,6 +58,9 @@ project(":tests") {
     }
 }
 ```
+
+* Import the project to your IDE
+* Refresh your gradle dependencies. 
 
 ## Run the tests
 ```php
