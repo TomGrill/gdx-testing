@@ -10,13 +10,13 @@ Asuming that you already did setup a libGDX project:
 
 * Edit the **settings.gradle** file and add the **'tests'** subproject to the includes like this:
 
-```php
+```gradle
 include 'desktop', 'android', 'ios', 'html', 'core', 'tests'
 ```
 
 * Edit **build.gradle** file, and add these lines:
 
-```php
+```gradle
 project(":tests") {
     apply plugin: "java"
 
@@ -71,6 +71,9 @@ Note: gradle caches passed tests. So if you rename/move/delete badlogic.jpg and 
 ```php
 ./gradlew clean tests:test
 ```
+
+Whenever you require a Headless libGDX environment for your test to pass, annotage your test class with
+```java @RunWith(GdxTestRunner.class)```
 
 Happy testing!
 
