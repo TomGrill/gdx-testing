@@ -72,7 +72,7 @@ Note: gradle caches passed tests. So if you rename/move/delete badlogic.jpg and 
 ./gradlew clean tests:test
 ```
 
-Whenever you require a headless libGDX environment for your tests to pass, annotate your test class with:
+Whenever you require a headless libGDX environment for your tests to pass, copy the [tests/src/de/tomgrill/gdxtesting/GdxTestRunner.java](tests/src/de/tomgrill/gdxtesting/GdxTestRunner.java) file to your tests project and annotate your test class with:
 
 ```java 
 @RunWith(GdxTestRunner.class)
