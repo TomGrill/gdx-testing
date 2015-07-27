@@ -88,7 +88,7 @@ Happy testing!
 
 ##License
 
-The gdx-testing project is licensed under the Apache 2 License, meaning you can use it free of charge, without strings attached in commercial and non-commercial projects. We love to get (non-mandatory) credit in case you release a game or app using gdx-dialogs!
+The gdx-testing project is licensed under the Apache 2 License, meaning you can use it free of charge, without strings attached in commercial and non-commercial projects.
 
 ##Source & inspired by
 
